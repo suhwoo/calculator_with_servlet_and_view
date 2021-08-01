@@ -12,6 +12,7 @@
 <title>회원목록</title>
 </head>
 <body>
+<jsp:include page="/member/Header.jsp"/>
 <h1>회원목록</h1>
 <p><a href='add'>신규회원</a></p>
 <%
@@ -24,5 +25,6 @@ for(Member member : members){
 <%=member.getCreatedDate() %>
 <a href='delete?no=<%=member.getNo() %>'>[삭제]</a><br>
 <%} %>
+<jsp:include page="/member/Tail.jsp"/>
 </body>
 </html>
