@@ -1,4 +1,4 @@
-# show_member_list
+# member_management
 working with java_web_work_book_ ch5  
 ch.5.4  
 기존에는 servlet으로 DB접근, 동작, 결과화면 보이기를 했다면  
