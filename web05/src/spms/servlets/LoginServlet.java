@@ -42,7 +42,7 @@ public class LoginServlet extends HttpServlet{
 			if(rs.next()) {
 				Member member=new Member()
 						.setEmail(rs.getString("EMAIL"))
-						.setName(rs.getString("MANME"));
+						.setName(rs.getString("MNAME"));
 				HttpSession session = request.getSession();
 				session.setAttribute("member", member);
 				
