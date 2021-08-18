@@ -10,5 +10,18 @@ ch.5.5
 Error은 포워딩을 통해 오류가 날 경우, 오류페이지로 이동한다.  
 원래 페이지(List page)로는 돌아오지 않는다.  
 Header과 Tail은 MemberList.jsp로부터 인클루딩으로 위임받는데, 실행후 MemberList.jsp로 돌아온다.  
+  
+ch.5.6  
+데이터를 보관할때 4가지의 객체 보관소가 있다.  
+1. ServletContext  
+2. HttpSession
+3. ServletRequest
+4. JspContext
+
+  
+HttpSession을 이용해서 유저의 정보를 저장할 수 있다.  
+LoginServlet과 LogOutServlet을 이용해서 로그인 기능을 만든다.  
+LoginServlet을 통해 받은 정보를 Member객체에 저장하고 이걸 Header.jsp에서 가져다가 쓴다. 이후 로그아웃을 하면 LogOutServlet을 통해 /auth/login이 다시 호출된다.  
+
 
 [정확한 설명은 여기에](https://github.com/suhwoo/BookReview/blob/main/Java_Web_WorkBook/Ch.5%20MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.md)
