@@ -25,7 +25,7 @@ LoginServlet을 통해 받은 정보를 Member객체에 저장하고 이걸 Head
 로그인은 이메일:sheet@naver.com 비밀번호:pmma  
   
 ch.5.7~5.9  
-JSP 액션태그 <jsp:useBean>, EL 블럭 ${}, JSTL을 통해 JSP에서 Java 코드를 지웠다.
+JSP 액션태그 <jsp:useBean>, EL 블럭 ${}, JSTL <c: >을 통해 JSP에서 Java 코드를 지웠다.
 
 
 [정확한 설명은 여기에](https://github.com/suhwoo/BookReview/blob/main/Java_Web_WorkBook/Ch.5%20MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.md)
