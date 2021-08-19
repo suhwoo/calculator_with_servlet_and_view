@@ -22,7 +22,10 @@ ch.5.6
 HttpSession을 이용해서 유저의 정보를 저장할 수 있다.  
 LoginServlet과 LogOutServlet을 이용해서 로그인 기능을 만든다.  
 LoginServlet을 통해 받은 정보를 Member객체에 저장하고 이걸 Header.jsp에서 가져다가 쓴다. 이후 로그아웃을 하면 LogOutServlet을 통해 /auth/login이 다시 호출된다.  
-로그인은 이메일:sheet@naver.com 비밀번호:pmma
+로그인은 이메일:sheet@naver.com 비밀번호:pmma  
+  
+ch.5.7~5.9  
+JSP 액션태그 <jsp:useBean>, EL 블럭 ${}, JSTL을 통해 JSP에서 Java 코드를 지웠다.
 
 
 [정확한 설명은 여기에](https://github.com/suhwoo/BookReview/blob/main/Java_Web_WorkBook/Ch.5%20MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.md)
